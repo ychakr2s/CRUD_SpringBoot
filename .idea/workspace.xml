@@ -21,7 +21,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
+            <state relative-caret-position="374">
               <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,6 +74,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -121,6 +124,7 @@
     <option name="width" value="1479" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -248,7 +252,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554317216149" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554317274054" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Springboot_BachelorApi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,12 +308,12 @@
       <workItem from="1554109199569" duration="9384000" />
       <workItem from="1554148518502" duration="13166000" />
       <workItem from="1554214692300" duration="22201000" />
-      <workItem from="1554284336519" duration="10553000" />
+      <workItem from="1554284336519" duration="11212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84643000" />
+    <option name="totallyTimeSpent" value="85302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,7 +333,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5007342" side_tool="true" weight="0.19489247" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.21102151" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.21102151" />
       <window_info id="Structure" order="7" sideWeight="0.5007342" side_tool="true" weight="0.19489247" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32892805" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -341,7 +345,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.5301028" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.1071953" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -497,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="374">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
