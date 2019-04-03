@@ -11,17 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class ApplicationController {
-        /*
-        implements ErrorController {
-        private final static String PATH = "/error";
-
-        @Override
-        @RequestMapping(PATH)
-        @ResponseBody
-        public String getErrorPath() {
-            return "No Mapping Found";
-        }
-         */
 
 
     @Autowired
@@ -54,7 +43,7 @@ public class ApplicationController {
     }
 
     @RequestMapping("/delete-user")
-    public String deleteUser(@RequestParam int id,HttpServletRequest request){
+    public String deleteUser(@RequestParam int id, HttpServletRequest request) {
         userService.deleteMyUser(id);
         request.setAttribute("users", userService.showAllUsers());
         request.setAttribute("mode", "ALL_USERS");

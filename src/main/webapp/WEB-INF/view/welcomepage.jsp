@@ -2,9 +2,9 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Cache-Control" content="no-cache">
@@ -13,9 +13,9 @@
 
     <title>Bootstrap Design</title>
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="static/css/fontawesome-all.min.css"-->
+    <!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"-->
+    <link rel="stylesheet" href="static/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="static/css/main.css">
 </head>
 
@@ -116,12 +116,13 @@
                             <td>${user.firstname}</td>
                             <td>${user.lastname}</td>
                             <td>${user.age}</td>
-                            <td> <a href="/delete-user?id=${user.id}">
-                                <span class="glyphicon glyphicon-trash"></span> </a>
+                            <td><a href="/delete-user?id= ${user.id}">
+                                <span class="glyphicon glyphicon-trash"></span></a>
                             </td>
                             <td><a href="/edit-user?id= ${user.id}">
                                 <span class="ghlypicon glyphicon-pencil"></span></a>
                             </td>
+
                         </tr>
                     </c:forEach>
                     </tbody>
