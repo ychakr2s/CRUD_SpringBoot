@@ -1,0 +1,6 @@
+com\YassineGroupSpringBoot\model\User.class
+com\YassineGroupSpringBoot\myApplication.class
+com\YassineGroupSpringBoot\AppController\ApplicationController.class
+com\YassineGroupSpringBoot\repository\UserRepository.class
+com\YassineGroupSpringBoot\AppController\RestController.class
+com\YassineGroupSpringBoot\services\UserService.class
