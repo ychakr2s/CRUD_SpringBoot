@@ -9,7 +9,4 @@ public interface UserRepository extends CrudRepository<User, Integer> {
 
     public User findByUsernameAndPassword(String username, String password);
 
-    User findOne(int id);
-
-    void delete(int id);
 }

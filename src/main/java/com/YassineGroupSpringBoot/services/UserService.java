@@ -16,16 +16,16 @@ public class UserService {
     private final UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
-        this.userRepository=userRepository;
+        this.userRepository = userRepository;
     }
 
-    public void saveMyUser(User user ) {
+    public void saveMyUser(User user) {
         userRepository.save(user);
     }
 
-    public List<User> showAllUsers(){
+    public List<User> showAllUsers() {
         List<User> users = new ArrayList<User>();
-        for(User user : userRepository.findAll()) {
+        for (User user : userRepository.findAll()) {
             users.add(user);
         }
 
@@ -33,11 +33,11 @@ public class UserService {
     }
 
     public void deleteMyUser(int id) {
-        userRepository.delete(id);
+        userRepository.deleteById(id);
     }
 
     public User editUser(int id) {
-        return userRepository.findOne(id);
+        return userRepository.findById(id).orElse(null);
     }
 
     public User findByUsernameAndPassword(String username, String password) {
