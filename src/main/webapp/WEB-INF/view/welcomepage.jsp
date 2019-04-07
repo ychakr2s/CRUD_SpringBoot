@@ -29,6 +29,7 @@
                 <li><a href="/login">Login</a></li>
                 <li><a href="/register">New Registration</a></li>
                 <li><a href="/show-users">All Users</a></li>
+                <li><a href="/Bachelor">Bachelor</a></li>
             </ul>
         </div>
     </div>
@@ -179,7 +180,7 @@
         </div>
     </c:when>
 
-    <c:when test="${mode=='MODE_LOGIN'}">
+    <c:when test= "${mode=='MODE_LOGIN'}">
         <div class="container text-center">
             <h3>User Login</h3>
             <hr>

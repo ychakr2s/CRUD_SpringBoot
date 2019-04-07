@@ -13,7 +13,7 @@ import java.util.List;
 public class UserService {
 
 
-    private final UserRepository userRepository;
+    private UserRepository userRepository;
 
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
@@ -34,6 +34,9 @@ public class UserService {
 
     public void deleteMyUser(int id) {
         userRepository.deleteById(id);
+    }
+    public boolean existUser(int id){
+        return userRepository.existsById(id)? true: false ;
     }
 
     public User editUser(int id) {
