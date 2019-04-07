@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java" line="85" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="46da8ac2-f178-4c1e-abb3-8bc768ce750f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,10 +38,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            <state relative-caret-position="225">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2961#2962#0" expanded="true" />
+                <element signature="e#3001#3002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,15 +72,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="368">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="21" column="6" lean-forward="true" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -106,8 +123,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/RestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp" />
       </list>
     </option>
   </component>
@@ -268,7 +286,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554668895291" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554670304785" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Springboot_BachelorApi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -327,12 +345,12 @@
       <workItem from="1554214692300" duration="22201000" />
       <workItem from="1554284336519" duration="18958000" />
       <workItem from="1554482742057" duration="3096000" />
-      <workItem from="1554660653637" duration="8231000" />
+      <workItem from="1554660653637" duration="9629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104375000" />
+    <option name="totallyTimeSpent" value="105773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,7 +371,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5007342" side_tool="true" weight="0.19489247" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.21073826" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.4992658" visible="true" weight="0.19664429" />
       <window_info id="Structure" order="7" sideWeight="0.5007342" side_tool="true" weight="0.19489247" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32892805" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -365,7 +383,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.18887262" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.36456808" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -452,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -500,6 +511,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -518,39 +543,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/jstl-1.2.jar!/META-INF/c.tld">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="168" column="4" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+        <state relative-caret-position="368">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/YassineGroupSpringBoot/AppController/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state relative-caret-position="225">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+            <element signature="e#3001#3002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcomepage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="248">
+          <caret line="21" column="6" lean-forward="true" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bachelorpage.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

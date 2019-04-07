@@ -81,5 +81,10 @@ public class ApplicationController {
 
     }
 
+    @RequestMapping("/bachelor")
+    public String bachelor(@ModelAttribute User user, HttpServletRequest request) {
+            return "bachelorpage";
+    }
+
 }
 

@@ -29,7 +29,7 @@
                 <li><a href="/login">Login</a></li>
                 <li><a href="/register">New Registration</a></li>
                 <li><a href="/show-users">All Users</a></li>
-                <li><a href="/Bachelor">Bachelor</a></li>
+                <li><a href="/bachelor">Bachelor</a></li>
             </ul>
         </div>
     </div>
